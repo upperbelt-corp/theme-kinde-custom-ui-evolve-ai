@@ -2,6 +2,7 @@ import React from "react";
 
 import { Footer } from "../components/footer";
 import { Header } from "../components/header";
+import backgroundUrl from "../assets/backgrounds/bg.png";
 
 const styles: {
   container: React.CSSProperties;
@@ -13,7 +14,7 @@ const styles: {
     flexDirection: "column",
     justifyContent: "space-between",
     background:
-      "url(https://asset.kindedemo.com/evolve-ai/bg.png) lightgray 50% / cover no-repeat",
+      `url(${backgroundUrl}) lightgray 50% / cover no-repeat`,
   },
 };
 

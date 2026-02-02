@@ -1,4 +1,6 @@
 // CSS Variables configuration
+import fontUrl from "../assets/fonts/InstrumentSans-VariableFont_wdth,wght.ttf";
+
 const kindeVariables = {
   baseFontFamily:
     "Instrument Sans, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, Segoe UI, Roboto, sans-serif",
@@ -16,7 +18,7 @@ const kindeVariables = {
 export const getStyles = (): string => `
   @font-face {
     font-family: Instrument Sans;
-    src: url(https://asset.kindedemo.com/evolve-ai/InstrumentSans-VariableFont_wdth,wght.ttf);
+    src: url(${fontUrl});
     /* replace with your font (hosted on your server) */
   }
 
