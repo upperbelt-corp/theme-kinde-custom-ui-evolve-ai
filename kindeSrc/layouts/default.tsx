@@ -2,7 +2,7 @@ import React from "react";
 
 import { Footer } from "../components/footer";
 import { Header } from "../components/header";
-import backgroundUrl from "../assets/backgrounds/bg.png";
+import backgroundUrl from "/kindeSrc/assets/backgrounds/bg.png";
 
 const styles: {
   container: React.CSSProperties;

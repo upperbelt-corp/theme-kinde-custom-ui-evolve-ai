@@ -1,5 +1,5 @@
 // CSS Variables configuration
-import fontUrl from "../assets/fonts/InstrumentSans-VariableFont_wdth,wght.ttf";
+import fontUrl from "/kindeSrc/assets/fonts/InstrumentSans-VariableFont_wdth,wght.ttf";
 
 const kindeVariables = {
   baseFontFamily:

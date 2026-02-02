@@ -2,7 +2,7 @@
 
 import { getKindeWidget } from "@kinde/infrastructure";
 import React from "react";
-import backgroundUrl from "../assets/backgrounds/bg.png";
+import backgroundUrl from "/kindeSrc/assets/backgrounds/bg.png";
 
 const styles: {
   container: React.CSSProperties;
