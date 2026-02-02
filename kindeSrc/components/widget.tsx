@@ -2,7 +2,6 @@
 
 import { getKindeWidget } from "@kinde/infrastructure";
 import React from "react";
-// import backgroundUrl from "/kindeSrc/assets/backgrounds/bg.png";
 
 const backgroundUrl = new URL('../assets/backgrounds/bg.png', import.meta.url).href;
 

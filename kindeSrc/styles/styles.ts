@@ -1,5 +1,4 @@
 // CSS Variables configuration
-// import fontUrl from "/kindeSrc/assets/fonts/InstrumentSans-VariableFont_wdth,wght.ttf";
 
 const fontUrl = new URL('../assets/fonts/InstrumentSans-VariableFont_wdth,wght.ttf', import.meta.url).href;
 
