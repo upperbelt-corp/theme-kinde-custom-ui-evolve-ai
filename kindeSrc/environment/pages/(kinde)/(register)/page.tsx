@@ -1,10 +1,11 @@
-"use server";
+// "use server";
+"use client";
 
 import { Widget } from "../../../../components/widget";
 import { DefaultLayout } from "../../../../layouts/default";
 import { type KindePageEvent } from "@kinde/infrastructure";
 import React from "react";
-import { renderToString } from "react-dom/server";
+// import { renderToString } from "react-dom/server";
 import { Root } from "../../../../root";
 
 const RegisterPage: React.FC<KindePageEvent> = ({ context, request }) => {
@@ -20,9 +21,15 @@ const RegisterPage: React.FC<KindePageEvent> = ({ context, request }) => {
   );
 };
 
+// // Page Component
+// export default async function Page(event: KindePageEvent): Promise<string> {
+//   const page = await RegisterPage(event);
+//   return renderToString(page);
+// }
+
 // Page Component
-export default async function Page(event: KindePageEvent): Promise<string> {
-  const page = await RegisterPage(event);
-  return renderToString(page);
+export default async function Page(event: KindePageEvent) {
+  return RegisterPage(event);
 }
+
 
